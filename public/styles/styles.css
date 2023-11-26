@@ -1,0 +1,82 @@
+body {
+    background: url('../imgs/landing-page-image.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overlay-text {
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    gap: 300px;
+    font-size: 25px;
+
+}
+
+#club_name {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#club_name:visited {
+    color:#fff;
+}
+
+#club_links {
+    display: flex;
+    gap: 60px; 
+}
+
+.c_links {
+    text-decoration: none;
+}
+
+.c_links:visited {
+    color:#fff;
+}
+
+#slogan1 {
+    margin-top: 350px;
+}
+
+#slogan1, #slogan2 {
+    font-size: 80px;
+}
+
+#sub-slogan {
+    margin-top: 50px;
+}
+
+.slogans {
+    margin-left: 150px;
+    font-weight:900;
+
+}
+
+#reg_btn{
+    margin-top: 75px;
+    margin-left: 150px;
+    height: 50px;
+    width: 200px;
+}
+
+#reg_btn {
+    background-color: #f00707;
+    color: white;
+    border: none;
+    font-weight:bold;
+}
+
+#u {
+    color: #f00707;
+}
